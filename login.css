@@ -1,0 +1,124 @@
+/* Resetando css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body{
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: rgba(203, 91, 226, 0.823);
+}
+
+.login-container{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    box-shadow: 10px 5px 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tittle-login{
+    transition: 500ms;
+    color:#9a23ee;
+}
+.tittle-login:hover{
+ color:#eb824af8;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 0.4em;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 2px solid #9a23ee;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+input:focus{
+    border-bottom: 2px solid  #eb824af8;
+
+}
+
+.but{
+    color: #9a23ee;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    width: 50%;
+    transition: 400ms;
+    
+}
+
+.but:focus{
+    color:#eb824af8;
+    height: 40px;
+    width: 60%;
+    font-size: 20px;
+}
+
+#social-container, #social-container p{
+    margin-bottom: 20px;
+}
+
+#social-container a{
+    font-size: 1em;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+.fa-facebook{
+    background: blue;.
+
+}
+
+.fa-linkedin{
+    background: rgb(0, 195, 255);
+}
